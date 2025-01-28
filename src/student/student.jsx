@@ -4,7 +4,7 @@ export default function student() {
   return (
     <div className='student'>
       <form className='form'>
-        <label className='headings'>Abstract</label>
+        <label className='headings'>Name:</label>
         <br/>
         <input className='textbox' type='text' placeholder='Enter the Abstract' required/>
         <br/>

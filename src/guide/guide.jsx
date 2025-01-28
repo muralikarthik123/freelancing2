@@ -16,10 +16,10 @@ export default function ChartsOverviewDemo() {
     <h1>Guide Remarks</h1>
     <form>
     <p>Batch1:</p>
-    <input className='box1'type='text' placeholder='Enter the remarks'/>
+    <input className='box1'type='text' placeholder='Enter the remarks' required/>
     <br/>
     <p>Batch2:</p>
-    <input  className='box1' type='text' placeholder='Enter the remarks'/>
+    <input  className='box1' type='text' placeholder='Enter the remarks' required/>
     <br/>
     <br/>
     <button className='bt1'>Submit</button>
