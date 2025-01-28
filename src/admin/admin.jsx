@@ -4,6 +4,7 @@ import './admin.css';
 import { useNavigate,Link } from 'react-router-dom';
 
 export default function Admin() {
+  
   const [formData, setFormData] = useState({
     username: '',
     password: '',
@@ -84,6 +85,7 @@ export default function Admin() {
         {errorMessage && <p className="error">{errorMessage}</p>}
         <br />
       </div>
+
     </div>
   );
 }
