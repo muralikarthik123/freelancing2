@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
 import './home.css'
-import Tab0 from '../student/student.jsx'
+
+import Tab2 from '../student/student.jsx'
 import Tab1 from '../coordinator/c1.jsx'
-import Tab2 from '../guide/guide.jsx'
+import Tab0 from '../guide/guide.jsx'
 import {Link} from "react-router-dom"
 export default function Tabs() {
   const [data,setData]=useState('manage')
